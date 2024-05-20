@@ -8,7 +8,7 @@ const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
 const contract = require("../artifacts/contracts/NFT.sol/MignonGenerated.json")
-const contractAddress = "0x434D5f40ad3E441e0c8951eFdEF260874Df23267"
+const contractAddress = ""
 const CDI = [""]
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
